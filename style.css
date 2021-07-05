@@ -1,2 +1,88 @@
 /* Body */
+body{
+    Margin:0;
+}
 
+.section-title {
+    text-align: center;
+}
+/* Nav */
+nav {
+  text-align: right;
+}
+
+.navbar-toggler {
+    margin: 0;
+}
+
+/* Profile */
+
+.profile-image{
+    height:500px;
+    width:500px;
+    border-radius: 100%;
+}
+
+/* About */
+.about-section {
+    margin:10px;
+    text-align: center;
+}
+#about-head{
+    text-align: center;
+}
+#about{
+    margin: auto;
+    width:50%;
+}
+
+/* Skills */
+.skills {
+
+
+}
+.skill-section {
+ 
+    display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: stretch;
+        align-content: stretch;
+}
+
+.icon { 
+    height: 100px;
+    margin: 50px;
+}
+
+
+/* Portfolio */
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    html, body{
+        width: 370px;
+    }
+
+    /* Profile */
+
+.profile-image{
+    height:200px;
+    width:200px;
+    border-radius: 100%;
+}
+/* About */
+.about-section {
+    margin:1px;
+    text-align: center;
+}
+/* Skills */
+.icon{ 
+    height: 100px;
+    Margin:25px;
+}
+}
