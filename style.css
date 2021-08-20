@@ -8,7 +8,7 @@ body{
 }
 /* Nav */
 nav {
-  text-align: right;
+text-align: right;
 }
 
 .navbar-toggler {
@@ -42,8 +42,7 @@ nav {
 
 }
 .skill-section {
- 
-    display: flex;
+        display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
