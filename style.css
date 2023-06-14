@@ -40,7 +40,8 @@ text-align: right;
 .skills {
 
 
-}
+} 
+
 .skill-section {
         display: flex;
         flex-direction: row;
@@ -53,12 +54,60 @@ text-align: right;
 .icon { 
     height: 100px;
     margin: 50px;
+    position: relative;
+    transition: top ease 0.5s;
+    
 }
 
+.icon:hover {
+    top: -10px;
+    /* background-color: black; */
+}
 
 /* Portfolio */
 
+.projects {
+display: grid;
+grid-template-columns: repeat(1, 1fr);
+grid-gap: 10px; 
+width: 80%;
+margin: auto;
+}
+ 
+.project-link {
+    height: 100%;
+    width: 100%;
+}
 
+.card {
+/*  
+    border: 1px solid grey;  */
+
+    box-shadow: 0 8px 30px rgb(0,0,0,0.12);
+}
+
+.project-image {
+    margin: auto;
+width: 90%;
+}
+
+.project-name {
+    text-align: center;
+    padding: 10px;
+}
+
+.project-description {
+    text-align: center;
+}
+
+.project-icons {
+    margin: auto;;
+}
+
+.resource-list {
+    display: grid;
+grid-template-columns: repeat(2, 1fr);
+}
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -74,13 +123,35 @@ text-align: right;
     width:200px;
     border-radius: 100%;
 }
+
 /* About */
 .about-section {
     margin:1px;
     text-align: center;
 }
+
 /* Skills */
 .icon{ 
     height: 100px;
-    Margin:25px;
+    margin: 25px;
+}
+
+.project-link {
+    height: 100%;
+    width: 100%;
+}
+
+.card {
+    height: 300px;
+    width: 300px; 
+    margin: auto;
+    /* border: 5px solid black;  */
+}
+
+.project-image {
+    height: 250px; 
+    width: 250px; 
+}
+
+
 }
