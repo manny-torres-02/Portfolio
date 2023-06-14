@@ -7,6 +7,7 @@ Project Description
 ### Todo
 
 - [ ] Hero Image  
+- [ ] Global Stylings 
 
 ### In Progress
 
