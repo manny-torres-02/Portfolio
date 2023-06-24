@@ -142,7 +142,8 @@ grid-template-columns: repeat(2, 1fr);
 }
 
 .card {
-    height: 300px;
+    /* height: 300px; */
+    /* TODO: DO you actually need height on card in mobile format?  */
     width: 300px; 
     margin: auto;
     /* border: 5px solid black;  */
