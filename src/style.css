@@ -101,7 +101,12 @@ width: 90%;
 }
 
 .project-icons {
-    margin: auto;;
+    margin: auto;
+    text-align: center;
+}
+
+.projects-title {
+text-align: center;
 }
 
 .resource-list {
