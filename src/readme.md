@@ -4,6 +4,7 @@ Add in Next JS icon
 Add in tailwind Icon
 Add in AWS icon (cloud)
 Add in Terraform Icon
+Fix Nav Section - links do not move on the page
 
 Absolutely! I'm ready to help you improve your website's design. To provide the most effective advice, please share some details about your website:
 

@@ -27,7 +27,7 @@
 <body>
   <section>
     <!-- nav bar Start  -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <div class="container-fluid">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,7 +39,7 @@
               <a class="nav-link active" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#About">About</a>
+              <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#Skills">Skills</a>
@@ -59,15 +59,15 @@
     </nav>
   </section>
     <!-- nav bar End  -->
-    <div class="about-section">
-      <img src="Images\Crop.jpg" alt="Profile" class="profile-image" />
-
-
-<article id="about">
-  <div>
+    <div class="about-section" id="">
+       <div class="landing-left">
     <h1 id="name"> Manny Torres </h1>
-    <h3 id="tagline"> Front End Developer with Cloud Expertise</h3>
+      <img src="Images\Crop.jpg" alt="Profile" class="profile-image" />
     </div>
+    
+  <article class="about" id="aboout">
+    <h3 id="tagline"> Front End Developer with Cloud Expertise</h3>
+  
     <p>Hi my name is Manny, it is a pleasure to meet you. I graduated college from UW-Madison in 2015. I have jumped
       between jobs from sales to administration and everything in between. Throughout my career,  I discovered web developement and 
       started teaching myself how to code through online free resources. My current skillset includes HTML, CSS, Javascript, Tailwind, React, Angular, Vue, Next.Js, Python, Terraform, Go, Terratest, and AWS Cloud Services </p>
@@ -78,6 +78,15 @@
         and take your website to the next level.
       </p>
   </article>
+  </div>
+
+  <div class="line-styling">
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="line"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+
   </div>
 
   <section class="skills">
@@ -110,7 +119,7 @@
       <img alt ="image of summary result component" 
       class="project-image" 
       src="https://cdn.jsdelivr.net/gh/manny-torres-02/Image_repository/result-summary-component.png"/>
-      </a>
+      
         <div class="project-description">  
           This is a basic challenge from front end mentor to recreate a photoshop design in web format.
         </div>
